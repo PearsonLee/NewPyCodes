@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 """Framwork for getting filetype-specific metadata.
 
 Instantiate appropriate calss with filename. Returned object acts like a
