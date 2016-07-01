@@ -66,14 +66,14 @@ class KnownValues(unittest.TestCase):
         (3999, 'MMMCMXCIX')
     )
 
+    """toRoman should give known result with known input"""
     def testToRomanKnownValues(self):
-        """toRoman should give known result with known input"""
         for integer, numeral in self.knownValues:
             result = toRoman(integer)
             self.assertEqual(numeral, result)
 
+    """fromRoman should give known result with known input"""
     def testFromRomanKnownValues(self):
-        """fromRoman should give known result with known input"""
         for integer, numeral in self.knownValues:
             result = fromRoman(numeral)
             self.assertEqual(integer, result)
