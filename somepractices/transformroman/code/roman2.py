@@ -2,6 +2,7 @@
 
 """Convert to and from Roman numerals"""
 
+
 # Define exceptions
 
 
@@ -41,6 +42,12 @@ romanNumeralMap = (
 
 def toRoman(n):
     """convert integer to Roman numeral"""
+    if not (0 < n < 4000):
+        raise OutOfRangeError, "integer should in 1~39999"
+
+    if int(n) is not n:
+        raise NotIntegerError, "non-integer can not \
+        be converted to Roman integer."
     result = ""
     for numeral, integer in romanNumeralMap:
         while n >= integer:
@@ -52,4 +59,3 @@ def toRoman(n):
 def fromRoman(s):
     """convert Roman numeral to integer"""
     pass
-
