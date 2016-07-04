@@ -58,4 +58,11 @@ def toRoman(n):
 
 def fromRoman(s):
     """convert Roman numeral to integer"""
+    result = 0
+    index = 0
+    for numeral, integer in romanNumeralMap:
+        while s[index:index + len(numeral)] is numeral:
+            result += integer
+            index += len(numeral)
+    return result
     pass
