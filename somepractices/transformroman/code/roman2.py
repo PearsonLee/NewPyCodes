@@ -61,8 +61,7 @@ def fromRoman(s):
     result = 0
     index = 0
     for numeral, integer in romanNumeralMap:
-        while s[index:index + len(numeral)] is numeral:
+        while s[index:index + len(numeral)] == numeral:
             result += integer
             index += len(numeral)
     return result
-    pass
