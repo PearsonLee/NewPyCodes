@@ -55,7 +55,7 @@ class KnownValues(unittest.TestCase):
         (3051, 'MMMLI'),
         (3185, 'MMMCLXXXV'),
         (3250, 'MMMCCL'),
-        (3313, 'MMMCCCXII'),
+        (3313, 'MMMCCCXIII'),
         (3408, 'MMMCDVIII'),
         (3501, 'MMMDI'),
         (3610, 'MMMDCX'),
