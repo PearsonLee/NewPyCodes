@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3411c37-9c94-4368-8dc6-fd300a652fcb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/somepractices/transformroman/code/roman2.py" afterPath="$PROJECT_DIR$/somepractices/transformroman/code/roman2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/somepractices/transformroman/unit_test/testroman.py" afterPath="$PROJECT_DIR$/somepractices/transformroman/unit_test/testroman.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/somepractices/transformroman/code/__init__.py" afterPath="$PROJECT_DIR$/somepractices/transformroman/transcodes/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/somepractices/transformroman/code/roman.py" afterPath="$PROJECT_DIR$/somepractices/transformroman/transcodes/roman.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/somepractices/transformroman/code/roman2.py" afterPath="$PROJECT_DIR$/somepractices/transformroman/transcodes/roman2.py" />
     </list>
     <ignored path="NewPyCodes.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -16,11 +20,20 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/NewPyCodes$roman2.coverage" NAME="roman2 Coverage Results" MODIFIED="1467298517842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/somepractices/roman/code" />
     <SUITE FILE_PATH="coverage/NewPyCodes$Unittests_in_testroman__1_.coverage" NAME="Unittests in testroman (1) Coverage Results" MODIFIED="1467304340814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/somepractices/transroman/unit_test" />
+    <SUITE FILE_PATH="coverage/NewPyCodes$roman2.coverage" NAME="roman2 Coverage Results" MODIFIED="1467820114802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/somepractices/transformroman/transcodes" />
+    <SUITE FILE_PATH="coverage/NewPyCodes$Unittest_SanityCheck_testSanity.coverage" NAME="Unittest SanityCheck.testSanity Coverage Results" MODIFIED="1467820122197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/somepractices/transformroman/unit_test" />
     <SUITE FILE_PATH="coverage/NewPyCodes$Unittest_ToRomanBadInput_testNonInteger.coverage" NAME="Unittest ToRomanBadInput.testNonInteger Coverage Results" MODIFIED="1467218116259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/somepractices/roman/unittest" />
     <SUITE FILE_PATH="coverage/NewPyCodes$Unittests_in_KnownValues.coverage" NAME="Unittests in KnownValues Coverage Results" MODIFIED="1467305509313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/somepractices/transroman/unit_test" />
+    <SUITE FILE_PATH="coverage/NewPyCodes$Unittests_in_KnownValues__1_.coverage" NAME="Unittests in KnownValues (1) Coverage Results" MODIFIED="1467818868422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/somepractices/transformroman/unit_test" />
+    <SUITE FILE_PATH="coverage/NewPyCodes$Unittests_in_testroman__2_.coverage" NAME="Unittests in testroman (2) Coverage Results" MODIFIED="1467818772392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/somepractices/transformroman/unit_test" />
+    <SUITE FILE_PATH="coverage/NewPyCodes$Unittest_CaseCheck_testToRomanCase.coverage" NAME="Unittest CaseCheck.testToRomanCase Coverage Results" MODIFIED="1467820127108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/somepractices/transformroman/unit_test" />
+    <SUITE FILE_PATH="coverage/NewPyCodes$Unittest_FromRomanBadInput_testMalformedAntecedent.coverage" NAME="Unittest FromRomanBadInput.testMalformedAntecedent Coverage Results" MODIFIED="1467819541384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/somepractices/transformroman/unit_test" />
+    <SUITE FILE_PATH="coverage/NewPyCodes$Unittest_ToRomanBadInput_testZero.coverage" NAME="Unittest ToRomanBadInput.testZero Coverage Results" MODIFIED="1467818892303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/somepractices/transformroman/unit_test" />
+    <SUITE FILE_PATH="coverage/NewPyCodes$Unittest_FromRomanBadInput_testRepeatPairs__1_.coverage" NAME="Unittest FromRomanBadInput.testRepeatPairs (1) Coverage Results" MODIFIED="1467819534466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/somepractices/transformroman/unit_test" />
+    <SUITE FILE_PATH="coverage/NewPyCodes$Unittest_FromRomanBadInput_testRepeatPairs.coverage" NAME="Unittest FromRomanBadInput.testRepeatPairs Coverage Results" MODIFIED="1467818897584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/somepractices/transformroman/unit_test" />
     <SUITE FILE_PATH="coverage/NewPyCodes$Unittests_in_testroman.coverage" NAME="Unittests in testroman Coverage Results" MODIFIED="1467301044266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/somepractices/roman/unittest" />
+    <SUITE FILE_PATH="coverage/NewPyCodes$Unittest_CaseCheck_testFromRomanCase.coverage" NAME="Unittest CaseCheck.testFromRomanCase Coverage Results" MODIFIED="1467820130429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/somepractices/transformroman/unit_test" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -31,53 +44,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="testroman.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/somepractices/transroman/unit_test/testroman.py">
+      <file leaf-file-name="testroman.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/somepractices/transformroman/unit_test/testroman.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="854">
-              <caret line="141" column="48" selection-start-line="141" selection-start-column="48" selection-end-line="141" selection-end-column="48" />
+            <state relative-caret-position="220">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding>
-                <element signature="e#48#63#0" expanded="true" />
+                <element signature="e#55#70#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testroman.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/somepractices/transformroman/unit_test/testroman.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="roman.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/somepractices/transroman/codes/roman.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-78">
-              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="roman2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/somepractices/transroman/codes/roman2.py">
+        <entry file="file://$PROJECT_DIR$/somepractices/transformroman/transcodes/roman2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="61" column="17" selection-start-line="55" selection-start-column="4" selection-end-line="61" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="roman2.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/somepractices/transformroman/code/roman2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="66" column="17" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
+            <state relative-caret-position="162">
+              <caret line="65" column="44" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -110,6 +93,8 @@
         <option value="$PROJECT_DIR$/somepractices/transroman/unit_test/testroman.py" />
         <option value="$PROJECT_DIR$/somepractices/transroman/codes/roman2.py" />
         <option value="$PROJECT_DIR$/somepractices/transformroman/code/roman2.py" />
+        <option value="$PROJECT_DIR$/somepractices/transformroman/unit_test/testroman.py" />
+        <option value="$PROJECT_DIR$/somepractices/transformroman/transcodes/roman2.py" />
       </list>
     </option>
   </component>
@@ -199,6 +184,24 @@
               <option name="myItemId" value="transformroman" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewPyCodes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewPyCodes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="somepractices" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="transformroman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="unit_test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -222,7 +225,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
+              <option name="myItemId" value="transcodes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -245,21 +248,21 @@
       <recent name="D:\GitRepo\NewPyCodes\somepractices\roman\" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in KnownValues">
-    <configuration default="false" name="Unittest ToRomanBadInput.testNonInteger" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittest CaseCheck.testFromRomanCase">
+    <configuration default="false" name="Unittest FromRomanBadInput.testMalformedAntecedent" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/somepractices/roman/unittest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/somepractices/transformroman/unit_test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="NewPyCodes" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/somepractices/roman/unittest/testroman.py" />
-      <option name="CLASS_NAME" value="ToRomanBadInput" />
-      <option name="METHOD_NAME" value="testNonInteger" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/somepractices/transformroman/unit_test/testroman.py" />
+      <option name="CLASS_NAME" value="FromRomanBadInput" />
+      <option name="METHOD_NAME" value="testMalformedAntecedent" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_METHOD" />
       <option name="PATTERN" value="" />
@@ -269,22 +272,22 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittests in testroman" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittest SanityCheck.testSanity" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/somepractices/roman/unittest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/somepractices/transformroman/unit_test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="NewPyCodes" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/somepractices/roman/unittest/testroman.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/somepractices/transformroman/unit_test/testroman.py" />
+      <option name="CLASS_NAME" value="SanityCheck" />
+      <option name="METHOD_NAME" value="testSanity" />
       <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <option name="PUREUNITTEST" value="true" />
@@ -299,33 +302,33 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/somepractices/roman/code" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/somepractices/transformroman/transcodes" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="NewPyCodes" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/somepractices/roman/code/roman2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/somepractices/transformroman/transcodes/roman2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittests in testroman (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittest CaseCheck.testToRomanCase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/somepractices/transroman/unit_test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/somepractices/transformroman/unit_test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="NewPyCodes" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/somepractices/transroman/unit_test/testroman.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/somepractices/transformroman/unit_test/testroman.py" />
+      <option name="CLASS_NAME" value="CaseCheck" />
+      <option name="METHOD_NAME" value="testToRomanCase" />
       <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <option name="PUREUNITTEST" value="true" />
@@ -333,22 +336,22 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittests in KnownValues" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittest CaseCheck.testFromRomanCase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/somepractices/transroman/unit_test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/somepractices/transformroman/unit_test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="NewPyCodes" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/somepractices/transroman/unit_test/testroman.py" />
-      <option name="CLASS_NAME" value="KnownValues" />
-      <option name="METHOD_NAME" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/somepractices/transformroman/unit_test/testroman.py" />
+      <option name="CLASS_NAME" value="CaseCheck" />
+      <option name="METHOD_NAME" value="testFromRomanCase" />
       <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_CLASS" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <option name="PUREUNITTEST" value="true" />
@@ -565,18 +568,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest ToRomanBadInput.testNonInteger" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in testroman" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest FromRomanBadInput.testMalformedAntecedent" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest SanityCheck.testSanity" />
       <item index="2" class="java.lang.String" itemvalue="Python.roman2" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in testroman (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in KnownValues" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest CaseCheck.testToRomanCase" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest CaseCheck.testFromRomanCase" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in KnownValues" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in testroman (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in testroman" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest CaseCheck.testFromRomanCase" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest CaseCheck.testToRomanCase" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest SanityCheck.testSanity" />
         <item index="3" class="java.lang.String" itemvalue="Python.roman2" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest FromRomanBadInput.testMalformedAntecedent" />
       </list>
     </recent_temporary>
   </component>
@@ -605,59 +609,59 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_KnownValues - 2016.07.01 at 00h 30m 05s.xml">
-      <configuration name="Unittests in KnownValues" configurationId="tests" />
+    <history-entry file="Unittest_CaseCheck_testFromRomanCase - 2016.07.06 at 23h 48m 50s.xml">
+      <configuration name="Unittest CaseCheck.testFromRomanCase" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_KnownValues - 2016.07.01 at 00h 40m 35s.xml">
-      <configuration name="Unittests in KnownValues" configurationId="tests" />
+    <history-entry file="Unittest_CaseCheck_testToRomanCase - 2016.07.06 at 23h 48m 47s.xml">
+      <configuration name="Unittest CaseCheck.testToRomanCase" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_KnownValues - 2016.07.01 at 00h 51m 50s.xml">
-      <configuration name="Unittests in KnownValues" configurationId="tests" />
+    <history-entry file="Unittest_FromRomanBadInput_testMalformedAntecedent - 2016.07.06 at 23h 39m 01s.xml">
+      <configuration name="Unittest FromRomanBadInput.testMalformedAntecedent" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_testroman - 2016.06.30 at 01h 30m 49s.xml">
-      <configuration name="Unittests in testroman" configurationId="tests" />
+    <history-entry file="Unittest_FromRomanBadInput_testRepeatPairs - 2016.07.06 at 23h 28m 17s.xml">
+      <configuration name="Unittest FromRomanBadInput.testRepeatPairs" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_testroman - 2016.06.30 at 01h 32m 22s.xml">
-      <configuration name="Unittests in testroman" configurationId="tests" />
+    <history-entry file="Unittest_FromRomanBadInput_testRepeatPairs_(1) - 2016.07.06 at 23h 38m 54s.xml">
+      <configuration name="Unittest FromRomanBadInput.testRepeatPairs (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_testroman - 2016.06.30 at 23h 37m 24s.xml">
-      <configuration name="Unittests in testroman" configurationId="tests" />
+    <history-entry file="Unittest_SanityCheck_testSanity - 2016.07.06 at 23h 39m 06s.xml">
+      <configuration name="Unittest SanityCheck.testSanity" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_testroman_(1) - 2016.07.01 at 00h 13m 17s.xml">
-      <configuration name="Unittests in testroman (1)" configurationId="tests" />
+    <history-entry file="Unittest_SanityCheck_testSanity - 2016.07.06 at 23h 48m 42s.xml">
+      <configuration name="Unittest SanityCheck.testSanity" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_testroman_(1) - 2016.07.01 at 00h 13m 56s.xml">
-      <configuration name="Unittests in testroman (1)" configurationId="tests" />
+    <history-entry file="Unittest_ToRomanBadInput_testZero - 2016.07.06 at 23h 28m 12s.xml">
+      <configuration name="Unittest ToRomanBadInput.testZero" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_testroman_(1) - 2016.07.01 at 00h 19m 07s.xml">
-      <configuration name="Unittests in testroman (1)" configurationId="tests" />
+    <history-entry file="Unittests_in_KnownValues_(1) - 2016.07.06 at 23h 27m 37s.xml">
+      <configuration name="Unittests in KnownValues (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_testroman_(1) - 2016.07.01 at 00h 32m 21s.xml">
-      <configuration name="Unittests in testroman (1)" configurationId="tests" />
+    <history-entry file="Unittests_in_KnownValues_(1) - 2016.07.06 at 23h 27m 48s.xml">
+      <configuration name="Unittests in KnownValues (1)" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="32" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="32" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13313162" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16565809" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2913257" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2913257" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54664487" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -682,270 +686,21 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/somepractices/fileinfo.py">
+    <entry file="file://$PROJECT_DIR$/somepractices/transformroman/unit_test/testroman.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#712#721#0" expanded="true" />
+            <element signature="e#55#70#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/somepractices/transroman/unit_test/testroman.py">
+    <entry file="file://$PROJECT_DIR$/somepractices/transformroman/transcodes/roman2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3080">
-          <caret line="141" column="48" selection-start-line="141" selection-start-column="48" selection-end-line="141" selection-end-column="48" />
-          <folding>
-            <element signature="e#48#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/somepractices/transroman/codes/roman.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        <state relative-caret-position="1210">
+          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/somepractices/transroman/codes/roman2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/somepractices/fileinfo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="e#712#721#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/somepractices/transroman/unit_test/testroman.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3080">
-          <caret line="141" column="48" selection-start-line="141" selection-start-column="48" selection-end-line="141" selection-end-column="48" />
-          <folding>
-            <element signature="e#48#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/somepractices/transroman/codes/roman.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/somepractices/transroman/codes/roman2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/somepractices/fileinfo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="e#712#721#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/somepractices/transroman/unit_test/testroman.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#48#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/somepractices/transroman/codes/roman.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/somepractices/transroman/codes/roman2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1298">
-          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/somepractices/fileinfo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="e#712#721#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/somepractices/transroman/unit_test/testroman.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#48#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/somepractices/transroman/codes/roman.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/somepractices/transroman/codes/roman2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1298">
-          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/somepractices/fileinfo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="e#712#721#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/somepractices/transroman/unit_test/testroman.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding>
-            <element signature="e#48#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/somepractices/transroman/codes/roman.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/somepractices/transroman/codes/roman2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/somepractices/fileinfo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="e#712#721#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/somepractices/transroman/unit_test/testroman.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#48#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/somepractices/fileinfo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="e#712#721#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/somepractices/transroman/unit_test/testroman.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#48#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/somepractices/fileinfo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#712#721#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/somepractices/transroman/unit_test/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/somepractices/transroman/codes/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/somepractices/transroman/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/somepractices/roman2/code/roman.py" />
-    <entry file="file://$PROJECT_DIR$/somepractices/roman2/testroman/testroman.py" />
-    <entry file="file://$PROJECT_DIR$/somepractices/fileinfo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="19" />
-          <folding>
-            <element signature="e#712#721#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/somepractices/transroman/unit_test/testroman.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="854">
-          <caret line="141" column="48" selection-start-line="141" selection-start-column="48" selection-end-line="141" selection-end-column="48" />
-          <folding>
-            <element signature="e#48#63#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -953,31 +708,123 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#55#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/somepractices/transformroman/transcodes/roman2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/somepractices/transroman/codes/roman.py">
+    <entry file="file://$PROJECT_DIR$/somepractices/fileinfo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-78">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/somepractices/transroman/unit_test/testroman.py" />
+    <entry file="file://$PROJECT_DIR$/somepractices/transroman/codes/roman.py" />
+    <entry file="file://$PROJECT_DIR$/somepractices/transroman/codes/roman2.py" />
+    <entry file="file://$PROJECT_DIR$/somepractices/fileinfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/somepractices/transroman/unit_test/testroman.py" />
+    <entry file="file://$PROJECT_DIR$/somepractices/transroman/codes/roman.py" />
+    <entry file="file://$PROJECT_DIR$/somepractices/transroman/codes/roman2.py" />
+    <entry file="file://$PROJECT_DIR$/somepractices/fileinfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/somepractices/transroman/unit_test/testroman.py" />
+    <entry file="file://$PROJECT_DIR$/somepractices/transroman/codes/roman.py" />
+    <entry file="file://$PROJECT_DIR$/somepractices/transroman/codes/roman2.py" />
+    <entry file="file://$PROJECT_DIR$/somepractices/fileinfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/somepractices/transroman/unit_test/testroman.py" />
+    <entry file="file://$PROJECT_DIR$/somepractices/transroman/codes/roman.py" />
+    <entry file="file://$PROJECT_DIR$/somepractices/transroman/codes/roman2.py" />
+    <entry file="file://$PROJECT_DIR$/somepractices/fileinfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/somepractices/transroman/unit_test/testroman.py" />
+    <entry file="file://$PROJECT_DIR$/somepractices/transroman/codes/roman.py" />
+    <entry file="file://$PROJECT_DIR$/somepractices/transroman/codes/roman2.py" />
+    <entry file="file://$PROJECT_DIR$/somepractices/fileinfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/somepractices/transroman/unit_test/testroman.py" />
+    <entry file="file://$PROJECT_DIR$/somepractices/fileinfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/somepractices/transroman/unit_test/testroman.py" />
+    <entry file="file://$PROJECT_DIR$/somepractices/fileinfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/somepractices/transroman/unit_test/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/somepractices/transroman/codes/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/somepractices/transroman/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/somepractices/roman2/code/roman.py" />
+    <entry file="file://$PROJECT_DIR$/somepractices/roman2/testroman/testroman.py" />
+    <entry file="file://$PROJECT_DIR$/somepractices/fileinfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/somepractices/transroman/unit_test/testroman.py" />
+    <entry file="file://$PROJECT_DIR$/somepractices/transroman/codes/roman.py" />
+    <entry file="file://$PROJECT_DIR$/somepractices/transroman/codes/roman2.py" />
+    <entry file="file://$PROJECT_DIR$/somepractices/transformroman/transcodes/roman2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="65" column="44" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/somepractices/transroman/codes/roman2.py">
+    <entry file="file://$PROJECT_DIR$/somepractices/transformroman/unit_test/testroman.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="61" column="17" selection-start-line="55" selection-start-column="4" selection-end-line="61" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/somepractices/transformroman/code/roman2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="66" column="17" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
-          <folding />
+        <state relative-caret-position="220">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#55#70#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

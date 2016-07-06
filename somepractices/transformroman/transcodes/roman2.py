@@ -2,7 +2,7 @@
 
 """Convert to and from Roman numerals"""
 
-
+import re
 # Define exceptions
 
 
@@ -58,6 +58,9 @@ def toRoman(n):
 
 def fromRoman(s):
     """convert Roman numeral to integer"""
+    romanpattern = '^M{0,3}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})$'
+    if not re.search(romanpattern, s):
+        raise InvalidRomanNumeralError, "%s is not a valid roman numeral" % s
     result = 0
     index = 0
     for numeral, integer in romanNumeralMap:
@@ -65,3 +68,6 @@ def fromRoman(s):
             result += integer
             index += len(numeral)
     return result
+
+if __name__ == '__main__':
+    print fromRoman('I')

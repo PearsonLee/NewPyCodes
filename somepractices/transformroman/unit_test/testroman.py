@@ -3,7 +3,10 @@
 """Unit test for roman.py"""
 
 import unittest
-from code.roman2 import *
+import sys
+import os
+sys.path.append(os.path.dirname(os.getcwd()))
+from transcodes.roman2 import *
 
 
 class KnownValues(unittest.TestCase):
@@ -138,7 +141,7 @@ class CaseCheck(unittest.TestCase):
         """fromRoman should only accept uppercase input"""
         for integer in range(1, 4000):
             numeral = toRoman(integer)
-            fromRoman(numeral.upper)
+            fromRoman(numeral.upper())
             self.assertRaises(InvalidRomanNumeralError,
                               fromRoman, numeral.lower())
 
