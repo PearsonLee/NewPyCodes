@@ -30,4 +30,4 @@ def regression_test():
 
 
 if __name__ == '__main__':
-    unittest.main(defaultTest="regressionTest")
+    unittest.main(defaultTest="regression_test")
