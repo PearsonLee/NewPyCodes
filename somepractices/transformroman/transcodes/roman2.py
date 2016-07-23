@@ -3,6 +3,8 @@
 """Convert to and from Roman numerals"""
 
 import re
+
+
 # Define exceptions
 
 
@@ -68,6 +70,7 @@ def fromRoman(s):
             result += integer
             index += len(numeral)
     return result
+
 
 if __name__ == '__main__':
     print fromRoman('I')
