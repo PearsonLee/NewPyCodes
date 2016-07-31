@@ -1,0 +1,19 @@
+root@192.168.182.133's password: toor
+
+ ____  __.      .__  .__  .____    .__                     
+|    |/ _|____  |  | |__| |    |   |__| ____  __ _____  ___
+|      < \__  \ |  | |  | |    |   |  |/    \|  |  \  \/  /
+|    |  \ / __ \|  |_|  | |    |___|  |   |  \  |  />    < 
+|____|__ (____  /____/__| |_______ \__|___|  /____//__/\_ \
+        \/    \/                  \/       \/            \/
+The programs included with the Kali GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Kali GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Sun Jul 31 21:30:12 2016 from 192.168.182.139
+]0;root@kali: ~[01;31mroot@kali[00m:[01;34m~[00m# ls /home
+ls /home
+[0m[01;34mlee[0m
+]0;root@kali: ~[01;31mroot@kali[00m:[01;34m~[00m# 
